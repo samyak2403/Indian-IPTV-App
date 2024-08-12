@@ -1,8 +1,10 @@
 package com.samyak2403.iptv.adapter
 
+import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.os.AsyncTask
+import android.os.Handler
+import android.os.Looper
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -16,9 +18,8 @@ import com.google.gson.reflect.TypeToken
 import com.samyak2403.iptv.R
 import com.samyak2403.iptv.TvPlayerActivity
 import com.samyak2403.iptv.model.TVChannel
-import java.io.InputStreamReader
-import java.net.HttpURLConnection
-import java.net.URL
+import okhttp3.*
+import java.io.IOException
 
 class TVLogoAdapter(private val context: Context, private val category: String) : RecyclerView.Adapter<TVLogoAdapter.ViewHolder>() {
 
@@ -26,8 +27,8 @@ class TVLogoAdapter(private val context: Context, private val category: String) 
     private val filteredTvChannels = mutableListOf<TVChannel>()
 
     init {
-        // Fetch data from the URL
-        FetchChannelsTask().execute("https://drfiles.github.io/IPTV-ORG/api/channels.json")
+        // Fetch data from the URL using OkHttp
+        fetchData("https://drfiles.github.io/IPTV-ORG/api/channels.json")
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -69,48 +70,37 @@ class TVLogoAdapter(private val context: Context, private val category: String) 
         notifyDataSetChanged()
     }
 
-    private inner class FetchChannelsTask : AsyncTask<String, Void, List<TVChannel>>() {
-        override fun doInBackground(vararg params: String?): List<TVChannel>? {
-            val urlString = params[0] ?: return null
-            var connection: HttpURLConnection? = null
-            return try {
-                val url = URL(urlString)
-                connection = url.openConnection() as HttpURLConnection
-                connection.connectTimeout = 5000
-                connection.readTimeout = 5000
-                connection.requestMethod = "GET"
-                connection.connect()
+    private fun fetchData(url: String) {
+        val client = OkHttpClient()
 
-                if (connection.responseCode == HttpURLConnection.HTTP_OK) {
-                    val reader = InputStreamReader(connection.inputStream)
+        val request = Request.Builder()
+            .url(url)
+            .build()
+
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                Log.e("TVLogoAdapter", "Failed to fetch data: ${e.message}")
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                response.body?.let { responseBody ->
+                    val reader = responseBody.charStream()
                     val type = object : TypeToken<List<TVChannel>>() {}.type
                     val channels: List<TVChannel> = Gson().fromJson(reader, type)
                     reader.close()
-                    channels
-                } else {
-                    Log.e("TVLogoAdapter", "Error: ${connection.responseCode}")
-                    null
-                }
-            } catch (e: Exception) {
-                Log.e("TVLogoAdapter", "Exception: ${e.message}")
-                null
-            } finally {
-                connection?.disconnect()
-            }
-        }
 
-        override fun onPostExecute(result: List<TVChannel>?) {
-            super.onPostExecute(result)
-            if (result != null) {
-                for (channel in result) {
-                    if (channel.category == category) {
-                        tvChannels.add(channel)
+                    // Update the UI on the main thread
+                    (context as Activity).runOnUiThread {
+                        for (channel in channels) {
+                            if (channel.category == category) {
+                                tvChannels.add(channel)
+                            }
+                        }
+                        filter("")
                     }
                 }
-                // Initialize the filtered list
-                filter("")
             }
-        }
+        })
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -118,6 +108,7 @@ class TVLogoAdapter(private val context: Context, private val category: String) 
         val imageView: ImageView = itemView.findViewById(R.id.card_image)
     }
 }
+
 
 //package com.samyak2403.iptv.adapter
 //
