@@ -17,6 +17,11 @@ By working on this app, we aim to:
 - Gain experience in handling large amounts of data, such as managing and updating a list of 500+ channels.
 - Understand best practices for app performance optimization, particularly for streaming apps.
 
+- ## Screensort
+TV Cannels |  Live 
+:-------------------------:|:-------------------------:
+<img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
+
 ## Features
 - **500+ Indian TV Channels**: Enjoy a vast collection of channels from various genres.
 - **High-Quality Streaming**: HD streaming available for supported channels.
