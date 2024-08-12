@@ -55,9 +55,13 @@ class TVLogoAdapter(private val context: Context, private val category: String) 
         // Set click listener for the card view
         holder.cardView.setOnClickListener {
             // Launch TvPlayerActivity with the corresponding video URL
+//            val intent = Intent(context, TvPlayerActivity::class.java)
+//            intent.putExtra(TvPlayerActivity.EXTRA_VIDEO_URL, channel.videoUrl)
+//            context.startActivity(intent)
             val intent = Intent(context, TvPlayerActivity::class.java)
             intent.putExtra(TvPlayerActivity.EXTRA_VIDEO_URL, channel.videoUrl)
             context.startActivity(intent)
+
         }
     }
 

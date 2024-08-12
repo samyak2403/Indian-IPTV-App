@@ -10,14 +10,17 @@
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_margin="8dp"
+    card_view:cardBackgroundColor="#333333"
+
     card_view:cardCornerRadius="4dp"
     card_view:cardElevation="4dp">
 
     <ImageView
         android:id="@+id/card_image"
         android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:adjustViewBounds="true"
+        android:outlineSpotShadowColor="@color/white"
         android:src="@drawable/tv"
         android:scaleType="fitCenter"
         />
