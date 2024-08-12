@@ -20,7 +20,7 @@ By working on this app, we aim to:
 - ## Screensort
 TV Cannels |  Live 
 :-------------------------:|:-------------------------:
-<img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
+<img src="1.png" width="250px"/>  |  <img src="2.png" width="450px"/> 
 
 ## Features
 - **500+ Indian TV Channels**: Enjoy a vast collection of channels from various genres.
