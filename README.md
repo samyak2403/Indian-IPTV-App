@@ -2,6 +2,8 @@
 
 ![App Logo](link_to_logo_image)
 
+![pv](https://pageview.vercel.app/?github_user=Indian-IPTV-App)
+
 ## Overview
 The **Indian IPTV App** is a comprehensive platform that allows users to stream over 500 Indian TV channels directly from their devices. The app provides a seamless streaming experience with a wide variety of channels, including news, entertainment, sports, movies, and regional content.
 
