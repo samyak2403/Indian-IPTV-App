@@ -1,6 +1,6 @@
 # Indian IPTV App
 
-<img src="play-button.png" width="250px"/>
+<img src="play-button.png" width="200px"/>
 
 ![pv](https://pageview.vercel.app/?github_user=Indian-IPTV-App)
 
