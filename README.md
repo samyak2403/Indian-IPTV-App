@@ -26,16 +26,19 @@ By working on this app, we aim to:
 TV Cannels |  Live 
 :-------------------------:|:-------------------------:|
 <img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
-:-------------------------:|
-<img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/> 
-:-------------------------:|
+
+:-------------------------:|:-------------------------:|
+<img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/>
+
+TV Cannels |  Live 
+:-------------------------:|:-------------------------:|
 <img src="0.png" width="450px"/>  |  <img src="01.png" width="450px"/> 
 
 TV Mode |  Live 
 :-------------------------:|:-------------------------:|
 
 <img src="5.png" width="450px"/> 
-:-------------------------:|:-------------------------:|
+
 
 ## Features
 - **500+ Indian TV Channels**: Enjoy a vast collection of channels from various genres.
