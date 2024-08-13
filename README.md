@@ -101,4 +101,6 @@ For any queries or support, please contact us at support@indianiptvapp.com.
 ## Acknowledgments
 - [Open Source Libraries](#) used in this project.
 - Special thanks to our community contributors.
+## Visitors Count
 
+<img align="left" src = "https://profile-counter.glitch.me/Indian-IPTV-App/count.svg" alt ="Loading">
