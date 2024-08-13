@@ -31,8 +31,6 @@ TV Cannels |  Live
 :-------------------------:|
 <img src="0.png" width="450px"/>  |  <img src="01.png" width="450px"/> 
 :-------------------------:|
- TV Mode
-:-------------------------:
 <img src="5.png" width="250px"/> 
 
 ## Features
