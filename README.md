@@ -4,6 +4,11 @@
 
 ![pv](https://pageview.vercel.app/?github_user=Indian-IPTV-App)
 
+## 📲 Download the APK:
+<a href="https://github.com/samyak2403/Indian-IPTV-App/raw/master/app/release/app-release.apk">
+  <img src="https://github.com/user-attachments/assets/a0c5dcca-d0dc-477b-b864-98c13e12d15d" alt="Download Love Calculator APK" style="width: 300px; height: auto;">
+</a>
+
 ## Overview
 The **Indian IPTV App** is a comprehensive platform that allows users to stream over 500 Indian TV channels directly from their devices. The app provides a seamless streaming experience with a wide variety of channels, including news, entertainment, sports, movies, and regional content.
 
