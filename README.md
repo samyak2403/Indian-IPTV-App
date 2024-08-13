@@ -103,4 +103,4 @@ For any queries or support, please contact us at support@indianiptvapp.com.
 - Special thanks to our community contributors.
 ## Visitors Count
 
-<img align="left" src = "https://profile-counter.glitch.me/samyak2403/Indian-IPTV-App/count.svg" alt ="Loading">
+<img align="left" src = "https://profile-counter.glitch.me/Indian-IPTV-App/count.svg" alt ="Loading">
