@@ -30,7 +30,7 @@ TV Cannels |  Live
 <img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/>
 
 TV Cannels |  Live 
-:-------------------------:
+:-------------------------::-------------------------:|
 <img src="0.png" width="450px"/>  |  <img src="01.png" width="450px"/> 
 
 TV Mode |  Live 
