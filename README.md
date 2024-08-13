@@ -26,7 +26,6 @@ By working on this app, we aim to:
 TV Cannels |  Live 
 :-------------------------:|:-------------------------:|
 <img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
-
 :-------------------------:|:-------------------------:|
 <img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/>
 
