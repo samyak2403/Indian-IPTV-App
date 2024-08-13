@@ -30,8 +30,12 @@ TV Cannels |  Live
 <img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/> 
 :-------------------------:|
 <img src="0.png" width="450px"/>  |  <img src="01.png" width="450px"/> 
-:-------------------------:|
-<img src="5.png" width="250px"/> 
+
+TV Mode |  Live 
+:-------------------------:|:-------------------------:|
+
+<img src="5.png" width="450px"/> 
+:-------------------------:|:-------------------------:|
 
 ## Features
 - **500+ Indian TV Channels**: Enjoy a vast collection of channels from various genres.
