@@ -22,21 +22,21 @@ By working on this app, we aim to:
 - Gain experience in handling large amounts of data, such as managing and updating a list of 500+ channels.
 - Understand best practices for app performance optimization, particularly for streaming apps.
 
-- ## Screensort
-TV Cannels |  Live 
-:-------------------------:|:-------------------------:|
+## Screenshots
+
+**TV Channels** | **Live**
+:-------------------------:|:-------------------------:
 <img src="1.png" width="250px"/>  |  <img src="2.png" width="250px"/> 
-:-------------------------:|:-------------------------:|
 <img src="3.png" width="250px"/>  |  <img src="4.png" width="250px"/>
 
-TV Cannels |  Live 
-:-------------------------::-------------------------:|
+**TV Channels** | **Live**
+:-------------------------:|:-------------------------:
 <img src="0.png" width="450px"/>  |  <img src="01.png" width="450px"/> 
 
-TV Mode |  Live 
-:-------------------------:|:-------------------------:|
+**TV Mode** | **Live**
+:-------------------------:|:-------------------------:
+<img src="5.png" width="450px"/>  |  
 
-<img src="5.png" width="450px"/> 
 
 
 ## Features
