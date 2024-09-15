@@ -48,7 +48,7 @@ By working on this app, we aim to:
 - **Search Functionality**: Quickly find channels by name or category.
 - **Regular Updates**: New channels and content added regularly.
 
-- ## Star History
+## Star History
 
 <a href="https://star-history.com/#samyak2403/IPTVmine&samyak2403/Indian-IPTV-App&Date">
  <picture>
