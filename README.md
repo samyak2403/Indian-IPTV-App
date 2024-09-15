@@ -48,6 +48,16 @@ By working on this app, we aim to:
 - **Search Functionality**: Quickly find channels by name or category.
 - **Regular Updates**: New channels and content added regularly.
 
+- ## Star History
+
+<a href="https://star-history.com/#samyak2403/IPTVmine&samyak2403/Indian-IPTV-App&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=samyak2403/IPTVmine,samyak2403/Indian-IPTV-App&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=samyak2403/IPTVmine,samyak2403/Indian-IPTV-App&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=samyak2403/IPTVmine,samyak2403/Indian-IPTV-App&type=Date" />
+ </picture>
+</a>
+
 ## Installation
 
 ### Prerequisites
